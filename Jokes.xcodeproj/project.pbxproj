@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		AF91C1631CD753E900633754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF91C1621CD753E900633754 /* AppDelegate.swift */; };
-		AF91C1651CD753E900633754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF91C1641CD753E900633754 /* ViewController.swift */; };
 		AF91C1681CD753E900633754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF91C1661CD753E900633754 /* Main.storyboard */; };
 		AF91C16A1CD753E900633754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF91C1691CD753E900633754 /* Assets.xcassets */; };
 		AF91C16D1CD753E900633754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF91C16B1CD753E900633754 /* LaunchScreen.storyboard */; };
 		AF91C1781CD753EA00633754 /* JokesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF91C1771CD753EA00633754 /* JokesTests.swift */; };
 		AF91C1831CD753EA00633754 /* JokesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF91C1821CD753EA00633754 /* JokesUITests.swift */; };
+		AF91C1D01CD758DE00633754 /* JokeCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF91C1CF1CD758DE00633754 /* JokeCellTableViewCell.swift */; };
+		AF91C1D21CD7590B00633754 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF91C1D11CD7590B00633754 /* LoginViewController.swift */; };
+		AF91C1D41CD7591B00633754 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF91C1D31CD7591B00633754 /* CreateAccountViewController.swift */; };
+		AF91C1D61CD7593100633754 /* AddJokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF91C1D51CD7593100633754 /* AddJokeViewController.swift */; };
+		AF91C1D81CD7594700633754 /* JokesFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF91C1D71CD7594700633754 /* JokesFeedTableViewController.swift */; };
+		AF91C1DA1CD7595B00633754 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF91C1D91CD7595B00633754 /* Joke.swift */; };
+		AF91C1DC1CD7596900633754 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF91C1DB1CD7596900633754 /* DataService.swift */; };
+		AF91C1DE1CD7597700633754 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF91C1DD1CD7597700633754 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		AF91C15F1CD753E900633754 /* Jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF91C1621CD753E900633754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF91C1641CD753E900633754 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF91C1671CD753E900633754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF91C1691CD753E900633754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF91C16C1CD753E900633754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		AF91C17E1CD753EA00633754 /* JokesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF91C1821CD753EA00633754 /* JokesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesUITests.swift; sourceTree = "<group>"; };
 		AF91C1841CD753EA00633754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF91C1CF1CD758DE00633754 /* JokeCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeCellTableViewCell.swift; sourceTree = "<group>"; };
+		AF91C1D11CD7590B00633754 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF91C1D31CD7591B00633754 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		AF91C1D51CD7593100633754 /* AddJokeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddJokeViewController.swift; sourceTree = "<group>"; };
+		AF91C1D71CD7594700633754 /* JokesFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesFeedTableViewController.swift; sourceTree = "<group>"; };
+		AF91C1D91CD7595B00633754 /* Joke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		AF91C1DB1CD7596900633754 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		AF91C1DD1CD7597700633754 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +111,12 @@
 		AF91C1611CD753E900633754 /* Jokes */ = {
 			isa = PBXGroup;
 			children = (
+				AF91C1CA1CD7579300633754 /* Utility */,
+				AF91C1CB1CD7579F00633754 /* Service */,
+				AF91C1CC1CD757A800633754 /* Model */,
+				AF91C1CD1CD757AE00633754 /* Controller */,
+				AF91C1CE1CD757B600633754 /* View */,
 				AF91C1621CD753E900633754 /* AppDelegate.swift */,
-				AF91C1641CD753E900633754 /* ViewController.swift */,
 				AF91C1661CD753E900633754 /* Main.storyboard */,
 				AF91C1691CD753E900633754 /* Assets.xcassets */,
 				AF91C16B1CD753E900633754 /* LaunchScreen.storyboard */,
@@ -123,6 +141,49 @@
 				AF91C1841CD753EA00633754 /* Info.plist */,
 			);
 			path = JokesUITests;
+			sourceTree = "<group>";
+		};
+		AF91C1CA1CD7579300633754 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AF91C1DD1CD7597700633754 /* Constants.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		AF91C1CB1CD7579F00633754 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AF91C1DB1CD7596900633754 /* DataService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		AF91C1CC1CD757A800633754 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF91C1D91CD7595B00633754 /* Joke.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AF91C1CD1CD757AE00633754 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF91C1D11CD7590B00633754 /* LoginViewController.swift */,
+				AF91C1D31CD7591B00633754 /* CreateAccountViewController.swift */,
+				AF91C1D71CD7594700633754 /* JokesFeedTableViewController.swift */,
+				AF91C1D51CD7593100633754 /* AddJokeViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AF91C1CE1CD757B600633754 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF91C1CF1CD758DE00633754 /* JokeCellTableViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF91C1651CD753E900633754 /* ViewController.swift in Sources */,
+				AF91C1D81CD7594700633754 /* JokesFeedTableViewController.swift in Sources */,
+				AF91C1D41CD7591B00633754 /* CreateAccountViewController.swift in Sources */,
+				AF91C1D21CD7590B00633754 /* LoginViewController.swift in Sources */,
+				AF91C1D61CD7593100633754 /* AddJokeViewController.swift in Sources */,
+				AF91C1D01CD758DE00633754 /* JokeCellTableViewCell.swift in Sources */,
 				AF91C1631CD753E900633754 /* AppDelegate.swift in Sources */,
+				AF91C1DA1CD7595B00633754 /* Joke.swift in Sources */,
+				AF91C1DC1CD7596900633754 /* DataService.swift in Sources */,
+				AF91C1DE1CD7597700633754 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,10 +472,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Jokes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.molutions.Jokes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -415,10 +486,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Jokes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.molutions.Jokes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -487,6 +561,7 @@
 				AF91C1891CD753EA00633754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF91C18A1CD753EA00633754 /* Build configuration list for PBXNativeTarget "JokesTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +570,7 @@
 				AF91C18C1CD753EA00633754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF91C18D1CD753EA00633754 /* Build configuration list for PBXNativeTarget "JokesUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +579,7 @@
 				AF91C18F1CD753EA00633754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
