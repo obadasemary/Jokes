@@ -223,7 +223,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add Joke" id="SF9-Kv-fjX">
-                        <barButtonItem key="rightBarButtonItem" title="Logout" id="Xk8-a7-SmL"/>
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="Xk8-a7-SmL">
+                            <connections>
+                                <action selector="logout:" destination="VVX-b7-wGB" id="c6c-Jd-aH9"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="jokeField" destination="A7e-IU-4nC" id="NPn-uN-7Gp"/>
