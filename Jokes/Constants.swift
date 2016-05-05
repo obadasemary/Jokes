@@ -19,3 +19,5 @@ let NewUserLoggedIn = "NewUserLoggedIn"
 
 // Status Codes
 let STATUS_ACCOUNT_NONEXIST = -8
+=======
+let BASE_URL = "https://jokes-obada.firebaseio.com"

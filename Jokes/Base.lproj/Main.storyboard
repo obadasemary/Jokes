@@ -231,9 +231,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add Joke" id="SF9-Kv-fjX">
+<<<<<<< HEAD
                         <barButtonItem key="rightBarButtonItem" title="Save Joke" id="Xk8-a7-SmL">
                             <connections>
                                 <action selector="saveJoke:" destination="VVX-b7-wGB" id="EUW-c4-iIv"/>
+=======
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="Xk8-a7-SmL">
+                            <connections>
+                                <action selector="logout:" destination="VVX-b7-wGB" id="c6c-Jd-aH9"/>
+>>>>>>> origin/master
                             </connections>
                         </barButtonItem>
                     </navigationItem>

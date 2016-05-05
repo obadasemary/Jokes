@@ -82,6 +82,7 @@ strip_invalid_archs() {
   fi
 }
 
+<<<<<<< HEAD
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Jokes/Firebase.framework"
@@ -89,3 +90,5 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Jokes/Firebase.framework"
 fi
+=======
+>>>>>>> origin/master

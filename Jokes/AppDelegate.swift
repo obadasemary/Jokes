@@ -7,8 +7,12 @@
 //
 
 import UIKit
+<<<<<<< HEAD
 import FBSDKCoreKit
 import FBSDKLoginKit
+=======
+import Firebase
+>>>>>>> origin/master
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
