@@ -8,4 +8,14 @@
 
 import Foundation
 
-let BASE_URL = ""
+let BASE_URL = "https://jokes-obada.firebaseio.com"
+
+// Key
+let KEY_UID = "uid"
+
+// Segues
+let CurrentlyLoggedIn = "CurrentlyLoggedIn"
+let NewUserLoggedIn = "NewUserLoggedIn"
+
+// Status Codes
+let STATUS_ACCOUNT_NONEXIST = -8

@@ -21,6 +21,10 @@
 		AF91C1DA1CD7595B00633754 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF91C1D91CD7595B00633754 /* Joke.swift */; };
 		AF91C1DC1CD7596900633754 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF91C1DB1CD7596900633754 /* DataService.swift */; };
 		AF91C1DE1CD7597700633754 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF91C1DD1CD7597700633754 /* Constants.swift */; };
+		AF91C1EA1CD7796700633754 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF91C1E71CD7796700633754 /* Bolts.framework */; };
+		AF91C1EB1CD7796700633754 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF91C1E81CD7796700633754 /* FBSDKCoreKit.framework */; };
+		AF91C1EC1CD7796700633754 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF91C1E91CD7796700633754 /* FBSDKLoginKit.framework */; };
+		CB8A8538EBFDECAAFB7A071D /* Pods_Jokes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3F5D20CDE2FBF256D83CDE /* Pods_Jokes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D3C6E772D265048363517BC /* Pods-Jokes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jokes/Pods-Jokes.release.xcconfig"; sourceTree = "<group>"; };
 		AF91C15F1CD753E900633754 /* Jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF91C1621CD753E900633754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF91C1671CD753E900633754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +66,11 @@
 		AF91C1D91CD7595B00633754 /* Joke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		AF91C1DB1CD7596900633754 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		AF91C1DD1CD7597700633754 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AF91C1E71CD7796700633754 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AF91C1E81CD7796700633754 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		AF91C1E91CD7796700633754 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		B45DA3569F15DFF8765ABC6F /* Pods-Jokes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jokes/Pods-Jokes.debug.xcconfig"; sourceTree = "<group>"; };
+		DD3F5D20CDE2FBF256D83CDE /* Pods_Jokes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jokes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8A8538EBFDECAAFB7A071D /* Pods_Jokes.framework in Frameworks */,
+				AF91C1EB1CD7796700633754 /* FBSDKCoreKit.framework in Frameworks */,
+				AF91C1EC1CD7796700633754 /* FBSDKLoginKit.framework in Frameworks */,
+				AF91C1EA1CD7796700633754 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +102,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B7D4FCCFA240DDB288FC86A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B45DA3569F15DFF8765ABC6F /* Pods-Jokes.debug.xcconfig */,
+				3D3C6E772D265048363517BC /* Pods-Jokes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FB6CD12076CA75ED57327A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD3F5D20CDE2FBF256D83CDE /* Pods_Jokes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF91C1561CD753E900633754 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +126,8 @@
 				AF91C1761CD753EA00633754 /* JokesTests */,
 				AF91C1811CD753EA00633754 /* JokesUITests */,
 				AF91C1601CD753E900633754 /* Products */,
+				1B7D4FCCFA240DDB288FC86A /* Pods */,
+				3FB6CD12076CA75ED57327A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +144,7 @@
 		AF91C1611CD753E900633754 /* Jokes */ = {
 			isa = PBXGroup;
 			children = (
+				AF91C1E61CD7794F00633754 /* Frameworks */,
 				AF91C1CA1CD7579300633754 /* Utility */,
 				AF91C1CB1CD7579F00633754 /* Service */,
 				AF91C1CC1CD757A800633754 /* Model */,
@@ -186,6 +220,16 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		AF91C1E61CD7794F00633754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF91C1E71CD7796700633754 /* Bolts.framework */,
+				AF91C1E81CD7796700633754 /* FBSDKCoreKit.framework */,
+				AF91C1E91CD7796700633754 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF91C1871CD753EA00633754 /* Build configuration list for PBXNativeTarget "Jokes" */;
 			buildPhases = (
+				9A04CA118E7C4506D8BE2465 /* Check Pods Manifest.lock */,
 				AF91C15B1CD753E900633754 /* Sources */,
 				AF91C15C1CD753E900633754 /* Frameworks */,
 				AF91C15D1CD753E900633754 /* Resources */,
+				F39431136F221F87E09906FB /* Embed Pods Frameworks */,
+				0AFD2F39057D237AE5F218A3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,6 +361,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AFD2F39057D237AE5F218A3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jokes/Pods-Jokes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A04CA118E7C4506D8BE2465 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F39431136F221F87E09906FB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jokes/Pods-Jokes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF91C15B1CD753E900633754 /* Sources */ = {
@@ -470,10 +565,15 @@
 		};
 		AF91C1881CD753EA00633754 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45DA3569F15DFF8765ABC6F /* Pods-Jokes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Jokes",
+				);
 				INFOPLIST_FILE = Jokes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.molutions.Jokes;
@@ -484,10 +584,15 @@
 		};
 		AF91C1891CD753EA00633754 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3C6E772D265048363517BC /* Pods-Jokes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Jokes",
+				);
 				INFOPLIST_FILE = Jokes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.molutions.Jokes;
